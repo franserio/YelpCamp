@@ -21,7 +21,9 @@ const commentRoutes    = require("./routes/comments"),
 // Seed the Database
 // seedDB();
 
-mongoose.connect('mongodb+srv://dbFranSerio:mypassword123@cluster0.yqdbi.mongodb.net/yelp_camp?retryWrites=true&w=majority', {
+let databaseurl = process.env.DATABASEURL || "mongodb://localhost/yelp_camp";
+
+mongoose.connect(databaseurl, {
 				useNewUrlParser: true,
 				useUnifiedTopology: true
 				})
