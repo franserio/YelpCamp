@@ -21,7 +21,7 @@ const commentRoutes    = require("./routes/comments"),
 // Seed the Database
 // seedDB();
 
-mongoose.connect("mongodb://localhost:27017/yelp_camp", {
+mongoose.connect('mongodb+srv://dbFranSerio:mypassword123@cluster0.yqdbi.mongodb.net/yelp_camp?retryWrites=true&w=majority', {
 				useNewUrlParser: true,
 				useUnifiedTopology: true
 				})
