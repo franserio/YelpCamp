@@ -1,4 +1,7 @@
 body {
+	margin: 0;
+	padding: 0;
+	position: relative;
 	background-color: #000;
 }
 
@@ -76,4 +79,8 @@ body {
 /* Older browser support - .no-cssanimations class added by modernizr */
 .no-cssanimations .slideshow li {
 	opacity: 1;
+}
+
+.footer {
+	opacity: 0;
 }
