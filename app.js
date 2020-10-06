@@ -36,6 +36,9 @@ app.use(methodOverride("_method"));
 app.set("view engine", "ejs");
 app.use(flash());
 
+// MOMENT CONFIGURATION
+app.locals.moment = require("moment");
+
 // PASSPORT CONFIGURATION
 app.use(require("express-session")({
 	secret: "Once again Rusty wins cutest dog!",
