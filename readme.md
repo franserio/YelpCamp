@@ -37,7 +37,7 @@ Each Campground has:
 * Show db.collection.drop()
 * Add a show route/template
 
-##
+## Additional features upcoming
 * Fuzzy Search 
 * Campground location with Google Maps
 * Display time since post was created with Moment JS
