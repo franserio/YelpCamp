@@ -37,11 +37,15 @@ Each Campground has:
 * Show db.collection.drop()
 * Add a show route/template
 
-RESTFUL ROUTES
-
-name 	 url 		verb 	desc.
-==================================
-INDEX	/dogs		GET		Display a list of all dog
-NEW		/dogs/new	GET		Displays form to make a new dog
-CREATE	/dogs		POST	Add new dog to DB
-SHOW	/dogs/:id	GET		Shoes info about one dog
+##
+* Fuzzy Search 
+* Campground location with Google Maps
+* Display time since post was created with Moment JS
+* User profile 
+* Password reset 
+* Image upload with multer and cloudinary 
+* In-app notifications
+* Payment with Stripe API
+* Ratings and reviews
+* Comments on the campground show page
+* Pagination in campgrounds index
